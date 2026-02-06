@@ -28,13 +28,21 @@ Standard models often fail by treating all churners the same. This project imple
 
 
 
+## 🔗 Live Interactive Notebook
+You can run this project directly in your browser without any setup:
+[Execute on Google Colab](https://colab.research.google.com/drive/1q5ZWcMMuGW6TuJEQxOXezAjEcqnrysrr?usp=sharing)
+
 ## Implementation
 The analysis follows a strict data science workflow:
 1.  **EDA:** Identifying the "Aha! Moment" (usage threshold where churn drops).
 2.  **Preprocessing:** Feature scaling and handling class imbalance.
-3.  **Modeling:** Training a Propensity Model with hyperparameter tuning.
+3.  **Modeling:** Training a Propensity Model (Random Forest) with hyperparameter tuning.
 4.  **Actionable Output:** Exporting specific UserID lists for Marketing and Product teams.
 
+## How to Run Locally
+1. Clone the repo.
+2. Install dependencies: `pip install pandas scikit-learn matplotlib seaborn`
+3. Run the main script: `python customer_segmentation_analysis.py`
 ## How to Run
 1. Clone the repo.
 2. Install dependencies: `pip install pandas scikit-learn matplotlib seaborn`.
